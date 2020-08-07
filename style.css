@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: whitesmoke;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #f72210;
+  font-size: 1.5rem;
+}
+
+.newsweek-logo {
+  background: #9b8583
+}
+
+.btn-login {
+  background-color: #f72210;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.btn-subscribe {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.top-ul {
+  padding-bottom: 10px;
+}
+
+.top-li {
+  list-style: none;
+  border-right: 1px solid gray;
+  padding: 0 1.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.a-tag-li {
+  color: black;
+}
+
+.a-tag-li:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.form {
+  width: 20rem;
+}
+
+.input-form {
+  border: none;
+  font-family: inherit;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  width: 40%;
+}
+
+.input-form::placeholder {
+  font-size: 1.5rem;
+}
+
+.magnifying-glass {
+  transform: translateX(1rem);
+  width: 2rem;
+  height: 2rem;
+}
+
+.input-form:focus {
+  outline: none;
+}
