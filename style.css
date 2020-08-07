@@ -42,9 +42,11 @@ body {
 
 .top-ul {
   padding-bottom: 10px;
+  position: relative;
 }
 
 .top-li {
+  display: inline-block;
   list-style: none;
   border-right: 1px solid gray;
   padding: 0 1.5rem;
@@ -70,19 +72,24 @@ body {
   font-family: inherit;
   font-size: 2rem;
   margin-left: 1.5rem;
-  width: 40%;
+  width: 10rem;
+  position: absolute;
+  transition: all 0.4s;
 }
 
 .input-form::placeholder {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .magnifying-glass {
-  transform: translateX(1rem);
-  width: 2rem;
-  height: 2rem;
+  transform: translate(9rem, 0.3rem);
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .input-form:focus {
   outline: none;
+  width: 120rem;
+  top: 0;
+  left: 0;
 }
