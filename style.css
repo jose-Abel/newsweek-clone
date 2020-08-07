@@ -20,7 +20,7 @@ body {
   background-color: #fff;
 }
 
-.navbar {
+.navbar-top {
   background-color: #f72210;
   font-size: 1.5rem;
 }
@@ -93,3 +93,55 @@ body {
   top: 0;
   left: 0;
 }
+
+.news-navbar-box {
+  padding: 0.2rem 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.navbar-news {
+  color: #9b8583;
+  font-size: 1.5rem;
+}
+
+.news-nav-a-tag:hover {
+  color: #f72210 !important;
+}
+
+.active-a-tag {
+  color: black;
+  font-size: 1.5rem;
+}
+
+/*---------Card/news sections--------------- */
+
+.flex {
+  display: flex;
+}
+
+.kelly-image {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+}
+
+.title-debate-sec {
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.title-debate-sec:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.author-debate-sec{
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
