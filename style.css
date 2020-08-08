@@ -139,6 +139,33 @@ body {
   color: gray;
 }
 
+.img-wrapper {
+  position: relative;
+}
+
+.category {
+  display: block;
+  text-transform: uppercase;
+  padding: 0.8rem 1.5rem;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 1.7rem;
+  line-height: 1.6rem;
+  font-weight: 900;
+}
+
+.a-tag-category {
+  color: #f72210;
+}
+
+.a-tag-category:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
 .card-news-title {
   font-size: 2.2rem;
   font-weight: 900;
