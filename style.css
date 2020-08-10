@@ -120,6 +120,10 @@ body {
   display: flex;
 }
 
+.a-tag-remove-hovering-underline:hover {
+  text-decoration: none;
+}
+
 .red-underline:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -136,7 +140,6 @@ body {
 .news-col-titles {
   font-size: 1.8rem;
   padding-bottom: 1.5rem;
-  color: gray;
 }
 
 .img-wrapper {
@@ -177,11 +180,8 @@ body {
 }
 
 .card-news-text {
-  font-size: 1.8rem;
-}
-
-
-.a-tag-news-img {
+  font-size: 1.6rem;
+  line-height: 2rem;
 }
 
 .kelly-image {
@@ -239,5 +239,24 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
   transform: translateY(-2rem);
+}
+
+.card-my-turn-text {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.img-culture-wrapper {
+  position: relative;
+}
+
+.category-culture {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: lightblue;
+  font-size: 1.3rem;
+  font-weight: 600;
 
 }
