@@ -7,21 +7,40 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/48d3392299.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <main class="main">
-    <nav class="navbar text-light navbar-top">
-      <span class="pt-4 ml-4">Fri, Aug 07, 2020</span>
-      <img src="img/newsweek-logo.png" alt="Newsweek Logo" class="newsweek-logo">
 
-      <div class="button-box pt-4 mr-2">
-        <button type="button" class="btn btn-login text-light mr-2">LOGIN</button>
-        <button type="button" class="btn btn-warning btn-subscribe rounded-pill">SUBSCRIBE ></button>
-      </div>
-    </nav>
+    <!-- MAIN NAVBAR -->
+    <div class="navbars-container">
+
+      <nav class="navbar text-light navbar-top">
+        <span class="pt-4 ml-4">Fri, Aug 07, 2020</span>
+        <img src="img/newsweek-logo.png" alt="Newsweek Logo" class="newsweek-logo">
+
+        <div class="button-box pt-4 mr-2">
+          <button type="button" class="btn btn-login text-light mr-2">LOGIN</button>
+          <button type="button" class="btn btn-warning btn-subscribe rounded-pill">SUBSCRIBE ></button>
+        </div>
+      </nav>
+
+      <!-- NAVBAR WHEN SCROLLING -->
+
+      <nav class="navbar text-light navbar-top navbar-scrolling">
+        <img src="img/newsweek-logo.png" alt="Newsweek Logo" class="newsweek-logo logo-small">
+
+        <div class="button-box py-2">
+          <button type="button" class="btn btn-login text-light mr-4">LOGIN</button>
+          <button type="button" class="btn btn-warning btn-subscribe rounded-pill mr-4">SUBSCRIBE ></button>
+          <svg class="menu-hamburger mr-2">
+            <use xlink:href="img/sprite.svg#iconmenu"></use>
+          </svg>
+        </div>
+      </nav>
+      
+    </div>
 
     <ul class="row justify-content-between ml-2 top-ul mt-3">
       <li class="top-li"><a href="#" class="a-tag-li">U.S.</a></li>
@@ -79,7 +98,9 @@
       <div class="row">
 
         <div class="col-4">
+
           <h3 class="news-col-titles text-secondary">FEATURED STORIES</h3>
+
           <div class="card border-0">
             <div class="img-wrapper">
               <div class="category">
@@ -97,7 +118,7 @@
             </div>
           </div>
 
-          <div class="card border-0">
+          <div class="card border-0 my-2">
             <div class="img-wrapper">
               <div class="category">
                 <a class="a-tag-category" href="https://www.newsweek.com/us">U.S.</a>
@@ -113,7 +134,7 @@
                 <p class="card-text card-news-text mb-5">The Illinois city saw several hours of violence and unrest following an officer-involved shooting on Sunday.</p>
             </div>
           </div>
-          <div class="card border-0">
+          <div class="card border-0 my-2">
             <div class="img-wrapper">
               <div class="category">
                 <a class="a-tag-category" href="https://www.newsweek.com/us">U.S.</a>
@@ -129,7 +150,7 @@
                 <p class="card-text card-news-text mb-5">After signing his recent executive orders, the president said, "I plan to forgive these taxes and make permanent cuts to the payroll tax."</p>
             </div>
           </div>
-          <div class="card border-0">
+          <div class="card border-0 my-3">
             <div class="img-wrapper">
               <div class="category">
                 <a class="a-tag-category" href="https://www.newsweek.com/world">World</a>
@@ -146,7 +167,7 @@
             </div>
           </div>
 
-          <div class="card border-0">
+          <div class="card border-0 my-4">
             <div class="img-wrapper">
               <div class="category">
                 <a class="a-tag-category" href="https://www.newsweek.com/world">World</a>
@@ -162,7 +183,7 @@
                 <p class="card-text card-news-text">As the covid crisis fuels a surge in overdoses, scientists race to halt addiction at its source: the brain.</p>
             </div>
           </div>
-          <div class="card border-0">
+          <div class="card border-2 my-4">
             <div class="img-wrapper">
               <div class="category">
                 <a class="a-ad-category" href="https://www.newsweek.com/world">SPONSORED INSIGHT</a>
@@ -178,67 +199,7 @@
                 <p class="card-text card-news-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
             </div>
           </div>
-          <div class="card border-0">
-            <div class="img-wrapper">
-              <div class="category">
-                <a class="a-ad-category" href="https://www.newsweek.com/world">TAKE THE SURVEY</a>
-              </div>
-              <a href="#" class="a-tag-news-img">
-                <img class="card-img-top feature-img" src="/img/BMT_Logo_2020_Newsweek_Final_small.png" alt="andrew">
-              </a>
-            </div>
-            <div class="card-body">
-              <a href="#" class="a-tag-remove-decoration red-underline">
-                <h5 class="card-title card-news-title">What Brands do You Trust the Most?</h5>
-              </a>
-                <p class="card-text card-news-text">Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by consumers like you.</p>
-            </div>
-          </div>
-          <div class="card border-1 mt-5">
-            <div class="img-wrapper">
-              <div class="category">
-                <a class="a-ad-category" href="https://www.newsweek.com/world">RANKINGS</a>
-              </div>
-              <a href="#" class="a-tag-news-img">
-                <img class="card-img-top feature-img" src="/img/best-maternity-care-hospitals-2020.jpg" alt="andrew">
-              </a>
-            </div>
-            <div class="card-body">
-              <a href="#" class="a-tag-remove-decoration red-underline">
-                <h5 class="card-title card-news-title">Best Maternity Hospitals 2020</h5>
-              </a>
-                <p class="card-text card-news-text">The facilities cited by Newsweek are an elite group demonstrating excellence in maternity care. Check the full list here</p>
-            </div>
-          </div>
-          <div class="card border-1 mt-5">
-            <div class="img-wrapper">
-              <div class="category">
-                <a class="a-ad-category" href="https://www.newsweek.com/world">RANKINGS</a>
-              </div>
-              <a href="#" class="a-tag-news-img">
-                <img class="card-img-top feature-img" src="/img/americas-best-realtors-2020.jpg" alt="andrew">
-              </a>
-            </div>
-            <div class="card-body">
-              <a href="#" class="a-tag-remove-decoration red-underline">
-                <h5 class="card-title card-news-title">America’s Best Realtors 2020</h5>
-              </a>
-                <p class="card-text card-news-text">Newsweek partnered with REAL Trends to sort through the data and provide you with a list of America's Best Real Estate Professionals</p>
-            </div>
-          </div>
-          <div class="card border-1 mt-5">
-            <div class="img-wrapper">
-              <a href="#" class="a-tag-news-img">
-                <img class="card-img-top feature-img" src="/img/newsweek-amplify.webp" alt="andrew">
-              </a>
-            </div>
-            <div class="card-body">
-              <a href="#" class="a-tag-remove-decoration red-underline">
-                <h5 class="card-title card-news-title">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</h5>
-              </a>
-                <p class="card-text card-news-text">Newsweek AMPLIFY, the company's performance marketing business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p>
-            </div>
-          </div>
+
         </div>
 
         <div class="col-5 mt-5">
@@ -360,7 +321,7 @@
               <div class="news-col-titles text-secondary">MORE STORIES</div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="/img/president-donald-trump-bedminster.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="/img/president-donald-trump-bedminster.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Religious Freedom Is Under Attack Like Never Before</h5>
@@ -371,7 +332,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more  mr-4" src="/img/stimulus-check-august-payments-congress.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="/img/stimulus-check-august-payments-congress.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Second Stimulus Check Update: Could There Be Another Payment in August?</h5>
@@ -382,7 +343,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more  mr-4" src="/img/new-york-city-covid-19.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="/img/new-york-city-covid-19.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">These 6 States Saw Highest Rise in Child COVID Cases During Late July Spike</h5>
@@ -393,7 +354,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="/img/getty-images-president-donald-trump.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="/img/getty-images-president-donald-trump.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">When Will the $400 Unemployment Start? Trump's Executive Action Explained</h5>
@@ -404,7 +365,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/elizabeth-warren.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/elizabeth-warren.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Elizabeth Warren Has Raised the Most Money for Biden Out of VP Contenders</h5>
@@ -415,7 +376,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/miami-lakes-florida-coronavirus-testing-july-2020 (1).webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/miami-lakes-florida-coronavirus-testing-july-2020 (1).webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">These States Have the Highest Coronavirus Positivity Rate</h5>
@@ -426,7 +387,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/spain-school-covid.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/spain-school-covid.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Georgia High School Reports 6 Students With COVID Amid Viral Photos of Crowded Hallways</h5>
@@ -437,7 +398,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/east-los-angeles-california-august-2020.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/east-los-angeles-california-august-2020.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">California Man Fighting COVID-19 Since April Finally Released From Hospital</h5>
@@ -448,7 +409,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/bill-barr.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/bill-barr.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Barr Accuses Protesters of 'Fascistic' Tactics. They Said Same About Feds</h5>
@@ -459,7 +420,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/ferguson.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/ferguson.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Ferguson Police Clash With Protesters On Michael Brown's Death Anniversary</h5>
@@ -470,7 +431,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/trump.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/trump.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">Trump Order's Funds for Unemployment Boost Will Run Out in Five Weeks: CRFB</h5>
@@ -481,7 +442,7 @@
               </div>
               <hr>
               <div class="flex">
-                <img class="kelly-image-more mr-4" src="img/hong-kong-police.webp" alt="kelly">
+                <img class="more-stories-image mr-4" src="img/hong-kong-police.webp" alt="kelly">
                 <div class="">
                   <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                     <h5 class="title-debate-section red-underline a-tag-remove-decoration">After Jimmy Lai Arrest, Images Show Hong Kong Officers in Apple Daily HQ</h5>
@@ -490,7 +451,6 @@
                   
                 </div>
               </div>
-              <hr>
             </div>
           </div>
 
@@ -503,7 +463,7 @@
           <div class="debate-vs">
 
             <div class="flex">
-              <img class="kelly-image" src="/img/kelly-shackelford.webp" alt="kelly">
+              <img class="circle-image" src="/img/kelly-shackelford.webp" alt="kelly">
               <div class="">
                 <a href="https://www.newsweek.com/religious-freedom-under-attack-like-never-before-opinion-1523094" class="a-tag-debate-title">
                   <h5 class="title-debate-section red-underline a-tag-remove-decoration">Religious Freedom Is Under Attack Like Never Before</h5>
@@ -524,16 +484,291 @@
                 </a>
                 <p class="author-debate-section">BY <span class="author-name">MELISSA ROGERS</span></p>
               </div>
-              <img class="kelly-image" src="img/melissa-rogers.webp" alt="melissa">
+              <img class="circle-image" src="img/melissa-rogers.webp" alt="melissa">
             </div>
         
           </div>
 
-        
+          <h3 class="news-col-titles text-secondary mt-5">
+            OPINION
+          </h3>
+
+          <div class="flex">
+            <img class="circle-image" src="/img/gordon-chang.webp" alt="gordon">
+            <div class="">
+              <a href="https://www.newsweek.com/china-senkoku-islands-japan-threat-1523610" class="a-tag-debate-title">
+                <h5 class="title-debate-section red-underline a-tag-remove-decoration">China Threatens Bold Grab for Japanese Territory This Month. Who's Next?</h5>
+              </a>
+              <p class="author-debate-section">BY <span class="author-name">GORDON G. CHANG</span></p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="flex">
+            <img class="circle-image" src="/img/dara-kass-robin-cogan.webp" alt="dara kass">
+            <div class="">
+              <a href="https://www.newsweek.com/new-covid-19-first-responders-school-nurses-opinion-1523620" class="a-tag-debate-title">
+                <h5 class="title-debate-section red-underline a-tag-remove-decoration">The New COVID-19 First Responders? School Nurses</h5>
+              </a>
+              <p class="author-debate-section">BY <span class="author-name">DARA KASS AND ROBIN COGAN</span></p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="flex">
+            <img class="circle-image" src="/img/jason-d-greenblatt.webp" alt="jason">
+            <div class="">
+              <a href="https://www.newsweek.com/can-we-seize-opportunity-lebanon-region-around-it-opinion-1523476" class="a-tag-debate-title">
+                <h5 class="title-debate-section red-underline a-tag-remove-decoration">Can We Seize the Opportunity for Lebanon and the Region Around It?</h5>
+              </a>
+              <p class="author-debate-section">BY <span class="author-name">JASON D. GREENBLATT</span></p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="flex">
+            <img class="circle-image" src="/img/beth-baltzan.webp" alt="beth">
+            <div class="">
+              <a href="https://www.newsweek.com/trade-free-globalization-covid-competition-1523376" class="a-tag-debate-title">
+                <h5 class="title-debate-section red-underline a-tag-remove-decoration">No, Freeing Up Trade Will Not Stop COVID</h5>
+              </a>
+              <p class="author-debate-section">BY <span class="author-name">BETH BALTZAN</span></p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="flex">
+            <img class="circle-image" src="/img/eric-schmitt.webp" alt="eric">
+            <div class="">
+              <a href="https://www.newsweek.com/enough-enough-st-louis-opinion-1523167" class="a-tag-debate-title">
+                <h5 class="title-debate-section red-underline a-tag-remove-decoration">Enough Is Enough in St. Louis</h5>
+              </a>
+              <p class="author-debate-section">BY <span class="author-name">ERIC SCHMITT</span></p>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="flex">
+            <img class="circle-image" src="/img/hilary-miller.webp" alt="hillary">
+            <div class="">
+              <a href="https://www.newsweek.com/international-community-must-not-abandon-jailed-peace-hero-gaza-opinion-1523144" class="a-tag-debate-title">
+                <h5 class="title-debate-section red-underline a-tag-remove-decoration">International Community Must Not Abandon Jailed Peace Hero in Gaza</h5>
+              </a>
+              <p class="author-debate-section">BY <span class="author-name">HILLARY MILLER</span></p>
+            </div>
+          </div>
+
+          <div class="card border-0 mt-5">
+            <div class="img-wrapper">
+              <div class="category">
+                <a class="a-ad-category" href="https://www.newsweek.com/world">SPONSORED INSIGHT</a>
+              </div>
+              <a href="#" class="a-tag-news-img">
+                <img class="card-img-top feature-img herman-lawyer-img" src="/img/herrman-herrman-pllc.jpg" alt="herman">
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="#" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title">What Makes the Best Lawyers Stand Out?</h5>
+              </a>
+                <p class="card-text card-news-text">The unthinkable has happened and you need a good lawyer to turn to, how do you chose?</p>
+            </div>
+          </div>
+
+          <div class="top-5-articles">
+
+            <div class="top-5-title-container align-items-center flex p-4 mt-5">
+              <img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" alt="favicon" class="top-5-title-favicon mr-3">
+              <h3 class="top-5-title">
+                START YOUR DAY WITH OUR TOP 5 ARTICLES
+              </h3>
+            </div>
+
+            <form action="#" class="top-5-form flex flex-column justify-content-center px-5 py-2">
+              <input type="text" class="top-5-input" placeholder="Email address">
+              <button class="btn btn-sign-up mt-3 text-light">FREE SIGN UP ></button>
+            </form>
+
+          </div>
+
+          <div class="card mt-5 border-0">
+            <div class="img-wrapper">
+              <a href="https://www.newsweek.com/best-nursing-homes-2021-1515791" class="a-tag-news-img">
+                <img class="card-img-top feature-img" src="/img/best-nursing-homes-2020.png" alt="best nursing 2020">
+              </a>
+            </div>
+            <div class="card-body mt-3 best-nursing-body">
+              <a href="https://www.newsweek.com/best-nursing-homes-2021-1515791" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title">Best Nursing Homes 2021</h5>
+              </a>
+                <p class="card-text card-news-text">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Nursing Homes 2021. If you work in this field, please participate in our survey.</p>
+            </div>
+          </div>
+
+          <div class="card border-1 mt-5">
+            <div class="img-wrapper">
+              <div class="category">
+                <a class="a-ad-category" href="https://www.newsweek.com/world">RANKINGS</a>
+              </div>
+              <a href="https://www.newsweek.com/best-infection-prevention-products-1499577" class="a-tag-news-img">
+                <img class="card-img-top feature-img" src="/img/infection-prevention-products-banner.jpg" alt="infection prevention products">
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="https://www.newsweek.com/best-infection-prevention-products-1499577" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title">Best Infection Prevention Products</h5>
+              </a>
+                <p class="card-text card-news-text">During the coronavirus outbreak, health care is more important than ever. In Newsweek's first Best Health Care series, we highlight the best infection prevention products.</p>
+            </div>
+          </div>
 
         </div>
       </div>
     </div>
+
+    <div class="container-fluid in-the-magazine-section px-4">
+
+      <div class="in-the-magazine-title-box flex justify-content-center align-items-end">
+
+        <img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" alt="favicon" class="mr-4">
+
+        <h2 class="in-the-magazine-title">IN THE MAGAZINE</h2>
+
+      </div>
+
+      <hr>
+
+      <div class="row px-5">
+
+        <div class="col-3 border-0">
+
+          <div class="card bg-dark text-white border-0">
+            <img src="img/cover-august-14-2020 (1).webp" class="card-img" alt="...">
+            <div class="card-img-overlay flex flex-column justify-content-end align-items-start">
+              <div class="text-container in-the-magazine-text">
+                <p class="card-text p-2">AUGUST 14 ISSUE</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-see-all-features">SEE ALL FEATURES ></button>
+
+        </div>
+
+        <div class="col-3">
+          <div class="card border-0">
+            <img class="in-the-magazine-img" src="img/trump-election-nightmare-2020-cover.webp" alt="trump election">
+
+            <div class="in-the-magazine-category-box flex mt-4">
+              <span class="in-the-magazine-location mr-3 p-2 text-light">COVER</span>
+              <a class="in-the-magazine-category p-2" href="https://www.newsweek.com/politics">POLITICS</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <a href="#" class="a-tag-remove-decoration red-underline">
+              <h5 class="card-title card-news-title in-the-magazine-news-title">How Trump Could Turn Troubled 2020 Election into an Unprecedented Disaster</h5>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card border-0">
+            <img class="in-the-magazine-img" src="/img/blue-invasion.webp" alt="blue invasion">
+
+            <div class="in-the-magazine-category-box flex mt-4">
+              <span class="in-the-magazine-location mr-3 p-2 text-light">FEATURES</span>
+              <a class="in-the-magazine-category p-2" href="https://www.newsweek.com/politics">POLITICS</a>
+            </div>
+
+            <div class="card-body">
+              <a href="#" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title in-the-magazine-news-title">Will the blue invasion of red state America finally pay off in 2020?</h5>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-3">
+
+          <div class="card border-0">
+            <img class="in-the-magazine-img" src="/img/congressman-john-lewis.webp" alt="John Lewis">
+
+            <div class="in-the-magazine-category-box flex mt-4">
+              <span class="in-the-magazine-location mr-3 p-2 text-light">PERISCOPE</span>
+              <a class="in-the-magazine-category p-2" href="https://www.newsweek.com/politics">OPINION</a>
+            </div>
+            <div class="card-body">
+              <a href="#" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title in-the-magazine-news-title">In the Name of John Lewis, Let Us Restore the Voting Rights Act</h5>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row px-5 mt-4">
+        <div class="col-3">
+
+          <div class="card border-0">
+            <img class="in-the-magazine-img" src="/img/per-bunker-banner.webp" alt="bunker banner">
+
+            <div class="in-the-magazine-category-box flex mt-4">
+              <span class="in-the-magazine-location mr-3 p-2 text-light">PERISCOPE</span>
+              <a class="in-the-magazine-category p-2" href="https://www.newsweek.com/politics">CULTURE</a>
+            </div>
+            <div class="card-body">
+              <a href="#" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title in-the-magazine-news-title">A Look Inside the Luxury Bunker Built by Doomsday Preppers for the Apocalypse</h5>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-3">
+
+          <div class="card border-0">
+            <img class="in-the-magazine-img" src="/img/galicia-spain-beach-coronavirus-july-2020.webp" alt="galicia beach">
+
+            <div class="in-the-magazine-category-box flex mt-4">
+              <span class="in-the-magazine-location mr-3 p-2 text-light">PERISCOPE</span>
+              <a class="in-the-magazine-category p-2" href="https://www.newsweek.com/politics">CULTURE</a>
+            </div>
+            <div class="card-body">
+              <a href="#" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title in-the-magazine-news-title">Europe Fears Coronavirus Second Wave Amid Spikes in Spain, France, Germany</h5>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-3 border-0">
+
+          <div class="card bg-dark text-white border-0">
+            <img src="img/street-hassle.webp" class="card-img street-hassle-img" alt="street-hassle">
+            <div class="card-img-overlay flex flex-column justify-content-end align-items-start">
+              <div class="text-container in-the-magazine-text">
+                <p class="card-text p-2 in-the-magazine-focus">IN FOCUS</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-street-hassle">STREET HASSLE</button>
+
+        </div>
+
+        <div class="col-3">a</div>
+      </div>
+
+    </div>
+
   </main>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

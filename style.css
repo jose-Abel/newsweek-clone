@@ -20,9 +20,14 @@ body {
   background-color: #fff;
 }
 
+.navbars-container {
+  position: relative;
+}
+
 .navbar-top {
   background-color: #f72210;
   font-size: 1.5rem;
+  z-index: 11;
 }
 
 .newsweek-logo {
@@ -38,6 +43,25 @@ body {
 .btn-subscribe {
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+.navbar-scrolling {
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.logo-small {
+  height: 3rem;
+}
+
+.menu-hamburger {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  fill: whitesmoke;
 }
 
 .top-ul {
@@ -188,20 +212,20 @@ body {
   line-height: 2rem;
 }
 
-.kelly-image {
+.circle-image {
   width: 6.5rem;
   height: 6.5rem;
   margin-right: 2rem;
 }
 
-.kelly-image-more {
+.more-stories-image {
   width: 7.5rem;
   height: 7.5rem;
 }
 
 .title-debate-section {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .author-debate-section{
@@ -267,5 +291,91 @@ body {
   background-color: lightblue;
   font-size: 1.3rem;
   font-weight: 600;
+}
 
+.top-5-articles { 
+  background-color: whitesmoke;
+  height: 18rem;
+}
+
+.top-5-title {
+  font-weight: 900;
+}
+
+.top-5-input {
+  height: 3rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-indent: 1rem;
+}
+
+.top-5-input:focus {
+  outline: none;
+}
+
+.best-nursing-body {
+  border: 1px solid whitesmoke;
+}
+
+.btn-sign-up {
+  background-color: red;
+  font-size: 1.5rem;
+}
+
+.in-the-magazine-section {
+  margin-top: 5rem;
+}
+
+.in-the-magazine-title {
+  font-weight: 900;
+}
+
+.in-the-magazine-location {
+  background-color: red;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.in-the-magazine-category {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.in-the-magazine-category:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.in-the-magazine-news-title {
+  line-height: 2rem;
+  font-size: 2rem;
+}
+
+.btn-see-all-features {
+  background-color: whitesmoke;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.in-the-magazine-text {
+  background-color: whitesmoke;
+  color: red;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.in-the-magazine-focus {
+  background-color: red;
+  color: #fff;
+}
+
+.street-hassle-img {
+  height: 35rem;
+}
+
+.text-street-hassle {
+  font-size: 2rem;
+  font-weight: 900;
 }
