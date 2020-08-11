@@ -379,3 +379,14 @@ body {
   font-size: 2rem;
   font-weight: 900;
 }
+
+/* .morestories-bottom {
+  margin-top: ;
+} */
+.morestories-bottom-header {
+  font-size: 2rem;
+  color: #f72210;
+  margin-left: 0;
+  margin-top: 3rem;
+  font-weight: 600;
+}
