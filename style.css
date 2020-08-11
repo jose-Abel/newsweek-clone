@@ -390,3 +390,160 @@ body {
   margin-top: 3rem;
   font-weight: 600;
 }
+
+/* --------------------SUBSCRIBE & NEWSLETTER--------------- */
+
+.subscribe-newsletter-section {
+  padding-bottom: 4rem;
+}
+
+.subscribe-section {
+  border-top: 1px solid black;
+}
+
+.subscribe-container {
+  background-color: whitesmoke;
+  height: 85%;
+}
+
+.subscribe-title {
+  color: red;
+  font-weight: 900;
+}
+
+.pictures-box {
+  position: relative;
+}
+
+.cover-august {
+  position: absolute;
+  top: 2rem;
+  left: 8rem;
+}
+
+.text-box {
+  padding: 2rem 2rem 0 10rem;
+}
+
+.text-paragraph {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.text-span {
+  font-size: 2rem;
+}
+
+.btn-subscribe-bottom {
+  font-size: 2rem;
+  background-color: red;
+  font-weight: 900;
+  border-radius: 0.5rem;
+}
+
+.newsletter-container {
+  border: 1px solid whitesmoke;
+}
+
+.img-newsletter {
+  background: url(img/starting5-homepage.png) center center no-repeat;
+  background-size: cover;
+}
+
+.newsletter-title {
+  font-weight: 900;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.newsletter-paragraph {
+  font-size: 1.6rem;
+}
+
+.newsletter-input {
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+
+.newsletter-input:focus {
+  outline: none;
+}
+
+.btn-newsletter {
+  font-size: 1.5rem;
+  background-color: red;
+  border-radius: 0.5rem;
+}
+
+/* ----------------------FOOTER----------------- */
+
+.footer-page {
+  background-color: #fff;
+}
+
+.footer-container {
+  border-top: 1px solid gray;
+}
+
+.footer-span {
+  font-size: 1.5rem;
+}
+
+.footer-svgs {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: gray;
+}
+
+.footer-svgs:hover {
+  fill: blue;
+}
+
+.footer-bottom {
+  border-top: 1px solid gray;
+}
+
+.ul-footer-top {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.li-footer-top {
+  padding-right: 5rem;
+  position: relative;
+}
+
+.li-footer-top::after {
+  content: "|";
+  position: absolute;
+  right: 2rem;
+}
+
+.a-tag-li-footer {
+  color: gray;
+}
+
+.a-tag-li-footer:hover {
+  color: black;
+}
+
+.editions-span {
+  font-weight: 900;
+}
+
+.ul-footer-bottom {
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.li-footer-bottom {
+  position: relative;
+}
+
+.li-footer-bottom::after {
+  content: "|";
+  position: absolute;
+  right: calc(width);
+  bottom: 0;
+  padding-left: 1rem;
+}
