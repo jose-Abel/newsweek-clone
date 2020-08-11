@@ -28,6 +28,7 @@ body {
   background-color: #f72210;
   font-size: 1.5rem;
   z-index: 11;
+  width: 100%;
 }
 
 .newsweek-logo {
@@ -67,6 +68,7 @@ body {
 .top-ul {
   padding-bottom: 10px;
   position: relative;
+  width: 100%;
 }
 
 .top-li {
@@ -76,6 +78,20 @@ body {
   padding: 0 1.5rem;
   font-size: 2rem;
   font-weight: 900;
+}
+
+@media (max-width: 1285px) {
+  .top-li {
+    padding: 0 1rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1051px) {
+  .top-li {
+    padding: 0 0.8rem;
+    font-size: 1.8rem;
+  }
 }
 
 .a-tag-li {
@@ -88,7 +104,13 @@ body {
 }
 
 .form {
-  width: 20rem;
+  width: 15rem;
+}
+
+@media (max-width: 1051px) {
+  .form {
+    width: 10rem;
+  }
 }
 
 .input-form {
@@ -118,10 +140,13 @@ body {
   left: 0;
 }
 
+/* --------------------------NEWS NAVBAR--------------------------------- */
+
 .news-navbar-box {
   padding: 0.2rem 0;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
+  width: 100%;
 }
 
 .navbar-news {

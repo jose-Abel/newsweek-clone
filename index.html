@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png">
@@ -13,10 +13,13 @@
 
   <main class="main">
 
-    <!-- MAIN NAVBAR -->
+    <!-- NAVBAR'S BOX-->
+
     <div class="navbars-container">
 
-      <nav class="navbar text-light navbar-top">
+      <!-- MAIN NAVBAR -->
+
+      <nav class="navbar text-light navbar-top d-md-none d-lg-inline-flex">
         <span class="pt-4 ml-4">Fri, Aug 07, 2020</span>
         <img src="img/newsweek-logo.png" alt="Newsweek Logo" class="newsweek-logo">
 
@@ -42,7 +45,7 @@
       
     </div>
 
-    <ul class="row justify-content-between ml-2 top-ul mt-3">
+    <ul class="row top-ul d-none d-lg-inline-flex ml-3 mt-2">
       <li class="top-li"><a href="#" class="a-tag-li">U.S.</a></li>
       <li class="top-li"><a href="#" class="a-tag-li">World</a></li>
       <li class="top-li"><a href="#" class="a-tag-li">Business</a></li>
@@ -63,12 +66,9 @@
         </label>
       </form>
     </ul>
-    <div class="news-ul">
 
-    </div>
-
-    <!-- Second Navbar 2 -->
-   <div class="news-navbar-box">
+    <!-- SECTIONS UL -->
+   <div class="news-navbar-box  d-none d-lg-inline-flex">
     <nav class="navbar navbar-news navbar-expand-lg navbar-light mt-2 ml-4">
       <a class="navbar-brand active-a-tag">TRENDING</a>
         <ul class="navbar-nav">
@@ -97,7 +97,7 @@
    <div class="container-fluid pt-5">
       <div class="row">
 
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4 col-lg-4">
 
           <h3 class="news-col-titles text-secondary">FEATURED STORIES</h3>
 
@@ -202,7 +202,7 @@
 
         </div>
 
-        <div class="col-5 mt-5">
+        <div class="col-md-8 col-lg-5 mt-5">
           <h3 class="news-col-titles text-secondary">TOP STORY</h3>
           <div class="card border-0">
             <div class="img-wrapper">
@@ -457,7 +457,7 @@
 
         </div>
       
-        <div class="col-3">
+        <div class="col-lg-3">
           <h3 class="news-col-titles text-secondary"><a href="https://www.newsweek.com/the-debate" class="a-tag-remove-decoration debate-title">THE DEBATE</a></h3>
 
           <div class="debate-vs">
@@ -782,26 +782,7 @@
         </div>
         <hr>
         <div class="row">
-        <div class="col-3">
-
-          <div class="card border-0">
-            <div class="img-wrapper">
-              <div class="category">
-                <a class="a-tag-category" href="https://www.newsweek.com/world">U.S.</a>
-              </div>
-              <a href="#" class="a-tag-news-img">
-                <img class="card-img-top feature-img" src="/img/andrew-cuomo.webp" alt="andrew">
-              </a>
-            </div>
-            <div class="card-body">
-              <a href="#" class="a-tag-remove-decoration red-underline">
-                <h5 class="card-title card-news-title">Is Trump Defunding Social Security? Concerns Mount After Executive Order</h5>
-              </a>
-                <p class="card-text card-news-text mb-5">"Trump announced that if he is re-elected he will permanently defund Social Security," Senator Bernie Sanders warned.</p>
-            </div>
-          </div>
-          </div>
-          <div class="col-3">
+          <div class="col-md-6 col-lg-3">
 
             <div class="card border-0">
               <div class="img-wrapper">
@@ -809,19 +790,20 @@
                   <a class="a-tag-category" href="https://www.newsweek.com/world">U.S.</a>
                 </div>
                 <a href="#" class="a-tag-news-img">
-                  <img class="card-img-top feature-img" src="img/joe-biden.webp" alt="andrew">
+                  <img class="card-img-top feature-img" src="/img/andrew-cuomo.webp" alt="andrew">
                 </a>
               </div>
               <div class="card-body">
                 <a href="#" class="a-tag-remove-decoration red-underline">
-                  <h5 class="card-title card-news-title">Voters in PA, WI Say Biden Would Handle COVID Better Than Trump: Poll
-                  </h5>
+                  <h5 class="card-title card-news-title">Is Trump Defunding Social Security? Concerns Mount After Executive Order</h5>
                 </a>
-                  <p class="card-text card-news-text mb-5">The polling showed that about three-quarter of voters in the swing states believe things are currently going badly in the U.S.</p>
+                  <p class="card-text card-news-text mb-5">"Trump announced that if he is re-elected he will permanently defund Social Security," Senator Bernie Sanders warned.</p>
               </div>
             </div>
-            </div>
-            <div class="col-3">
+
+          </div>
+
+            <div class="col-md-6 col-lg-3">
 
               <div class="card border-0">
                 <div class="img-wrapper">
@@ -829,18 +811,42 @@
                     <a class="a-tag-category" href="https://www.newsweek.com/world">U.S.</a>
                   </div>
                   <a href="#" class="a-tag-news-img">
-                    <img class="card-img-top feature-img" src="img/donald-trump.webp" alt="andrew">
+                    <img class="card-img-top feature-img" src="img/joe-biden.webp" alt="andrew">
                   </a>
                 </div>
                 <div class="card-body">
                   <a href="#" class="a-tag-remove-decoration red-underline">
-                    <h5 class="card-title card-news-title">Trump's Executive COVID Orders Draw Mixed Reactions From GOP Lawmakers</h5>
+                    <h5 class="card-title card-news-title">Voters in PA, WI Say Biden Would Handle COVID Better Than Trump: Poll
+                    </h5>
                   </a>
-                    <p class="card-text card-news-text mb-5">"President Trump does not have the power to unilaterally rewrite the payroll tax law," GOP Senator Ben Sasse said.</p>
+                    <p class="card-text card-news-text mb-5">The polling showed that about three-quarter of voters in the swing states believe things are currently going badly in the U.S.</p>
                 </div>
               </div>
+
+            </div>
+
+              <div class="col-md-6 col-lg-3">
+
+                <div class="card border-0">
+                  <div class="img-wrapper">
+                    <div class="category">
+                      <a class="a-tag-category" href="https://www.newsweek.com/world">U.S.</a>
+                    </div>
+                    <a href="#" class="a-tag-news-img">
+                      <img class="card-img-top feature-img" src="img/donald-trump.webp" alt="andrew">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <a href="#" class="a-tag-remove-decoration red-underline">
+                      <h5 class="card-title card-news-title">Trump's Executive COVID Orders Draw Mixed Reactions From GOP Lawmakers</h5>
+                    </a>
+                      <p class="card-text card-news-text mb-5">"President Trump does not have the power to unilaterally rewrite the payroll tax law," GOP Senator Ben Sasse said.</p>
+                  </div>
+                </div>
+
               </div>
-              <div class="col-3">
+
+              <div class="col-md-6 col-lg-3">
 
                 <div class="card border-0">
                   <div class="img-wrapper">
@@ -857,32 +863,32 @@
                     </a>
                       <p class="card-text card-news-text mb-5">"Hang the nooses," angry Lebanese wrote on social media and protest signs.</p>
                   </div>
+                  </div>
                 </div>
-                </div>
-          </div>  
+            </div>  
       </div>
       <div class="container-fluid pt-5">
         <div class="row">
-          <div class="col-3">
+          <div class="col-md-6 col-lg-3">
   
-            <div class="card border-0">
-              <div class="img-wrapper">
-                <div class="category">
-                  <a class="a-tag-category" href="https://www.newsweek.com/world">U.S.</a>
+              <div class="card border-0">
+                <div class="img-wrapper">
+                  <div class="category">
+                    <a class="a-tag-category" href="https://www.newsweek.com/world">U.S.</a>
+                  </div>
+                  <a href="#" class="a-tag-news-img">
+                    <img class="card-img-top feature-img" src="/img/seattle-blm-mural.webp" alt="andrew">
+                  </a>
                 </div>
-                <a href="#" class="a-tag-news-img">
-                  <img class="card-img-top feature-img" src="/img/seattle-blm-mural.webp" alt="andrew">
-                </a>
+                <div class="card-body">
+                  <a href="#" class="a-tag-remove-decoration red-underline">
+                    <h5 class="card-title card-news-title">Artist Urges People to Visit Indianapolis BLM Mural After It Was Defaced</h5>
+                  </a>
+                    <p class="card-text card-news-text mb-5">"It's just so disappointing," said Rebecca Robinson, an Indianapolis-based artist who contributed to the city's Black Lives Matter mural, on Sunday morning.</p>
+                </div>
+                </div>
               </div>
-              <div class="card-body">
-                <a href="#" class="a-tag-remove-decoration red-underline">
-                  <h5 class="card-title card-news-title">Artist Urges People to Visit Indianapolis BLM Mural After It Was Defaced</h5>
-                </a>
-                  <p class="card-text card-news-text mb-5">"It's just so disappointing," said Rebecca Robinson, an Indianapolis-based artist who contributed to the city's Black Lives Matter mural, on Sunday morning.</p>
-              </div>
-            </div>
-            </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
   
               <div class="card border-0">
                 <div class="img-wrapper">
@@ -901,7 +907,7 @@
                 </div>
               </div>
               </div>
-              <div class="col-3">
+              <div class="col-md-6 col-lg-3">
   
                 <div class="card border-0">
                   <div class="img-wrapper">
@@ -920,7 +926,7 @@
                   </div>
                 </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3">
   
                   <div class="card border-0">
                     <div class="img-wrapper">
@@ -948,7 +954,7 @@
       </div>
       <div class="container-fluid">
         <div class="row morestories-bottom">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -965,7 +971,7 @@
 
           </div>
           
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -980,7 +986,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="flex mb-5">
               <img class="more-stories-image mr-4" src="/img/chuck-schumer-donald-trump-coronavirus-package-call.webp" alt="kelly">
               <div class="">
@@ -1016,7 +1022,7 @@
       </div>
       <div class="container-fluid">
         <div class="row morestories-bottom">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1033,7 +1039,7 @@
 
           </div>
           
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1048,7 +1054,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="flex mb-5">
               <img class="more-stories-image mr-4" src="/img/hong-kong-elections-china-five-eyes-canada.webp" alt="kelly">
               <div class="">
@@ -1083,7 +1089,7 @@
       </div>
       <div class="container-fluid">
         <div class="row morestories-bottom">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1100,7 +1106,7 @@
 
           </div>
           
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1115,7 +1121,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="flex mb-5">
               <img class="more-stories-image mr-4" src="/img/donald-trump-press-briefing.webp" alt="kelly">
               <div class="">
@@ -1150,7 +1156,7 @@
       </div>
       <div class="container-fluid">
         <div class="row morestories-bottom">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1167,7 +1173,7 @@
 
           </div>
           
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1182,7 +1188,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="flex mb-5">
               <img class="more-stories-image mr-4" src="/img/mark-zuckerberg.webp" alt="kelly">
               <div class="">
@@ -1217,7 +1223,7 @@
       </div>
       <div class="container-fluid">
         <div class="row morestories-bottom">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1234,7 +1240,7 @@
 
           </div>
           
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1249,7 +1255,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="flex mb-5">
               <img class="more-stories-image mr-4" src="/img/quibi-mapleworth-murders-john-lutz.webp" alt="kelly">
               <div class="">
@@ -1284,7 +1290,7 @@
       </div>
       <div class="container-fluid">
         <div class="row morestories-bottom">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1301,7 +1307,7 @@
 
           </div>
           
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="card border-0">
               <div class="img-wrapper">
                 <a href="#" class="a-tag-news-img">
@@ -1316,7 +1322,7 @@
             </div>
 
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="flex mb-5">
               <img class="more-stories-image mr-4" src="/img/aaron-rodgers-jimmy-garoppolo-green-bay-packers.webp" alt="kelly">
               <div class="">
@@ -1350,7 +1356,7 @@
         
         <div class="row subscribe-section pt-5 pl-4">
 
-          <div class="col-8">
+          <div class="col-12 col-lg-8">
 
             <h3 class="subscribe-title p-3">SUBSCRIBE</h3>
 
@@ -1377,14 +1383,14 @@
 
           </div>
 
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
 
             <h3 class="subscribe-title p-3">NEWSLETTER</h3>
 
             <div class="newsletter-container flex">
-              <div class="col-6 img-newsletter"></div>
+              <div class="d-none d-md-inline col-md-6 img-newsletter"></div>
 
-              <div class="newsletter-text-box flex flex-column justify-content-center align-items-center col-6">
+              <div class="newsletter-text-box flex flex-column justify-content-center align-items-center col-12 col-md-6">
 
                 <h4 class="newsletter-title my-4">
                   The Starting 5
@@ -1394,7 +1400,7 @@
                   See why nearly a quarter of a million subscribers begin their day with the Starting 5.
                 </p>
 
-                <form action="#" class="newletter-form flex flex-column">
+                <form action="#" class="newletter-form flex flex-column align-self-stretch">
                   <input type="text" class="newsletter-input my-2 p-2" placeholder="Email address">
                   <button class="btn btn-newsletter text-light my-2 align-self-stretch">FREE SIGN UP ></button>
                 </form>
