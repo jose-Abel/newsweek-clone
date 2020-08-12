@@ -19,7 +19,7 @@
 
       <!-- MAIN NAVBAR -->
 
-      <nav class="navbar text-light navbar-top d-md-none d-lg-inline-flex">
+      <nav class="navbar text-light navbar-top d-none d-lg-inline-flex">
         <span class="pt-4 ml-4">Fri, Aug 07, 2020</span>
         <img src="img/newsweek-logo.png" alt="Newsweek Logo" class="newsweek-logo">
 
@@ -645,7 +645,7 @@
 
       <div class="row px-5">
 
-        <div class="col-3 border-0">
+        <div class="col-12 col-md-3 border-0">
 
           <div class="card bg-dark text-white border-0">
             <img src="img/cover-august-14-2020 (1).webp" class="card-img" alt="...">
@@ -660,7 +660,7 @@
 
         </div>
 
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <div class="card border-0">
             <img class="in-the-magazine-img" src="img/trump-election-nightmare-2020-cover.webp" alt="trump election">
 
@@ -676,7 +676,7 @@
           </div>
         </div>
 
-        <div class="col-3">
+        <div class="col-12 col-md-3">
           <div class="card border-0">
             <img class="in-the-magazine-img" src="/img/blue-invasion.webp" alt="blue invasion">
 
@@ -693,7 +693,7 @@
           </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-12 col-md-3">
 
           <div class="card border-0">
             <img class="in-the-magazine-img" src="/img/congressman-john-lewis.webp" alt="John Lewis">
@@ -714,7 +714,7 @@
       </div>
 
       <div class="row px-5 mt-4">
-        <div class="col-3">
+        <div class="col-12 col-md-3">
 
           <div class="card border-0">
             <img class="in-the-magazine-img" src="/img/per-bunker-banner.webp" alt="bunker banner">
@@ -731,7 +731,7 @@
           </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-12 col-md-3">
 
           <div class="card border-0">
             <img class="in-the-magazine-img" src="/img/galicia-spain-beach-coronavirus-july-2020.webp" alt="galicia beach">
@@ -749,22 +749,25 @@
 
         </div>
 
-        <div class="col-3 border-0">
-
-          <div class="card bg-dark text-white border-0">
-            <img src="img/street-hassle.webp" class="card-img street-hassle-img" alt="street-hassle">
-            <div class="card-img-overlay flex flex-column justify-content-end align-items-start">
-              <div class="text-container in-the-magazine-text">
-                <p class="card-text p-2 in-the-magazine-focus">IN FOCUS</p>
+        <div class="col-12 col-in-the-magazine col-md-3 border-0">
+          <div class="border-0 my-4">
+            <div class="img-wrapper">
+              <div class="category">
+                <a class="a-tag-category" href="https://www.newsweek.com/world">World</a>
               </div>
+              <a href="#" class="a-tag-news-img">
+                <img class="card-img-top in-the-magazine-img" src="/img/street-hassle.webp" alt="street hassle">
+              </a>
             </div>
+
+            <div class="card-body">
+              <a href="#" class="a-tag-remove-decoration red-underline">
+                <h5 class="card-title card-news-title in-the-magazine-news-title">STREET HASSLE</h5>
+              </a>
+            </div>
+
           </div>
-
-          <p class="text-street-hassle">STREET HASSLE</button>
-
         </div>
-
-        <div class="col-3">a</div>
       </div>
 
     </div>
@@ -1366,6 +1369,7 @@
                 <img src="img/cover-july-31-august-07-2020.jpg" alt="cover July" class="cover-july">
                 <img src="img/cover-august-14-2020.jpg" alt="cover August" class="cover-august">
               </div>
+              
               <div class="text-box flex flex-column align-items-center justify-content-center ml-5 ">
                 <p class="text-paragraph">
                   In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
@@ -1375,7 +1379,7 @@
                   Choose A Membership That's Perfect for You!
                 </span>
 
-                <button class="btn align-self-start mt-4 btn-subscribe-bottom text-light">SUBSCRIBE ></button>
+                <button class="btn mt-4 btn-subscribe-bottom text-light">SUBSCRIBE ></button>
 
               </div>
 
@@ -1385,7 +1389,7 @@
 
           <div class="col-12 col-lg-4">
 
-            <h3 class="subscribe-title p-3">NEWSLETTER</h3>
+            <h3 class="subscribe-title news-letter-title p-3">NEWSLETTER</h3>
 
             <div class="newsletter-container flex">
               <div class="d-none d-md-inline col-md-6 img-newsletter"></div>
@@ -1420,14 +1424,14 @@
 
     <div class="footer-container pt-5 px-3">
 
-      <div class="footer-top flex justify-content-between">
+      <div class="footer-top">
 
         <div class="footer-logo-box flex mb-2">
-          <img src="img/newsweek-logo-footer.png" alt="Newsweek Logo" class="">
-          <span class="footer-span align-self-end">@ 2020 NEWSWEEK</span>
+          <img src="img/newsweek-logo-footer.png" alt="Newsweek Logo" class="footer-logo-img">
+          <span class="footer-span">@ 2020 NEWSWEEK</span>
         </div>
 
-        <div class="footer-svg-box align-self-end mb-4">
+        <div class="footer-svg-box mb-4">
 
           <a href="#">
             <svg class="footer-svgs mr-4">
@@ -1471,20 +1475,21 @@
           <li class="li-footer-top"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">România</a></li>
         </ul>
 
-        <ul class="ul-footer-bottom flex justify-content-between">
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">About us</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Corrections</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Contact Us</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Editorial Guidelines</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Advertise</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Copyright</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Terms & Conditions</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Privacy Policy</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Cookie Policy</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Terms of Sale</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Archive</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Announcements</a></li>
-          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer">Consent preferences</a></li>
+        <ul class="ul-footer-bottom">
+          <li class="li-footer-bottom"><a href="#" class="a-tag-remove-hovering-underline a-tag-li-footer a">About us</a></li>
+          <li class="li-footer-bottom">Corrections</li>
+          <li class="li-footer-bottom">Contact Us</li>
+          <li class="li-footer-bottom">Editorial Guidelines</li>
+          <li class="li-footer-bottom">Advertise</li>
+          <li class="li-footer-bottom">Copyright</li>
+          <li class="li-footer-bottom">Terms & Conditions</li>
+          <br>
+          <li class="li-footer-bottom">Privacy Policy</li>
+          <li class="li-footer-bottom">Cookie Policy</li>
+          <li class="li-footer-bottom">Terms of Sale</li>
+          <li class="li-footer-bottom">Archive</li>
+          <li class="li-footer-bottom">Announcements</li>
+          <li class="li-footer-bottom">Consent preferences</li>
         </ul>
 
       </div>
