@@ -687,3 +687,11 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 500){
+  .btn-subscribe-bottom {
+  }
+  .cover-july{
+    transform: translateX(50%);
+  }
+}
