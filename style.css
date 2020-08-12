@@ -11,6 +11,12 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: whitesmoke;
@@ -63,6 +69,13 @@ body {
   height: 2.5rem;
   cursor: pointer;
   fill: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .menu-hamburger {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
 }
 
 .top-ul {
@@ -443,15 +456,14 @@ body {
 
 .pictures-box {
   position: relative;
+  transform: translate(2rem, 2rem);
 }
 
 @media (max-width: 768px) {
   .pictures-box {
     align-self: center;
-    position: relative;
   }
 }
-
 
 .cover-august {
   position: absolute;
@@ -459,37 +471,50 @@ body {
   left: 8rem;
 }
 
+@media (max-width: 768px) {
+  .cover-july {
+    position: absolute;
+    left: -3rem;
+  }
+
+  .cover-august {
+    transform: translateY(2rem);
+    position: static;
+  }
+}
+
 .text-box {
-  padding: 2rem 2rem 0 10rem;
+  padding: 2rem 2rem 2rem 10rem;
 }
 
 .text-paragraph {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 900;
 }
 
 .text-span {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 @media (max-width: 768px) {
   .text-box {
     position: absolute;
-    bottom: -3rem;
-    font-size: 1rem;
+    bottom: 0;
+    left: 0;
+    flex-wrap: wrap;
   }
 
   .text-paragraph {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .text-span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
 .btn-subscribe-bottom {
-  font-size: 2rem;
+  font-size: 1.8rem;
   background-color: red;
   font-weight: 900;
   border-radius: 0.5rem;
