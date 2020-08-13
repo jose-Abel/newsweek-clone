@@ -5,7 +5,7 @@
 
 The Microverse "Using Bootstrap" practice that consist of creating a clone for the Newsweek Webpage https://www.newsweek.com/ where we have to build the website with the use of Bootstrap framework.
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![screenshot](./app_screenshot.png)
 
 
 ## Built With
@@ -31,6 +31,7 @@ You can clone this code anytime and load the HTML on your browser, because it ha
 
 
 ## Live version
+https://angry-haibt-4efacc.netlify.app/
 
 
 ### Setup
