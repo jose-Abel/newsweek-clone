@@ -31,6 +31,19 @@ body {
   width: 100%;
 }
 
+.lef-items-box {
+  margin-left: 2rem;
+}
+
+.weather-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.current-date {
+  display: block;
+}
+
 .newsweek-logo {
   background: #9b8583;
 }
@@ -68,7 +81,7 @@ body {
 .top-ul {
   padding-bottom: 10px;
   position: relative;
-  width: 100%;
+  width: 95%;
 }
 
 .top-li {
@@ -135,7 +148,7 @@ body {
 }
 
 .news-nav-a-tag:hover {
-  color: #f72210 !important;
+  color: #f72210;
 }
 
 .active-a-tag {
@@ -397,7 +410,7 @@ body {
 }
 
 .subscribe-section {
-  border-top: 1px solid black;
+  border-top: 1px solid whitesmoke;
 }
 
 .subscribe-container {
@@ -603,6 +616,35 @@ body {
 }
 
 @media (max-width: 992px) {
+
+  .below-opinion-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .below-opinion-article {
+    width: 40%;
+  }
+
+  .top-5-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    margin: 3rem 0;
+  }
+
+  .top-5-title-container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .top-5-form {
+    width: 70%;
+    align-self: center;
+  }
+
   .footer-top {
     width: 90%;
   }
