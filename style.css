@@ -32,7 +32,7 @@ body {
 }
 
 .newsweek-logo {
-  background: #9b8583
+  background: #9b8583;
 }
 
 .btn-login {
@@ -143,7 +143,7 @@ body {
   font-size: 1.5rem;
 }
 
-/*---------Card/news sections--------------- */
+/* ---------Card/news sections--------------- */
 
 .flex {
   display: flex;
@@ -179,7 +179,7 @@ body {
   display: block;
   text-transform: uppercase;
   padding: 0.8rem 1.5rem;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -208,7 +208,7 @@ body {
   line-height: 3rem;
 }
 
-.debate-title:hover { 
+.debate-title:hover {
   text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ body {
   font-weight: 900;
 }
 
-.author-debate-section{
+.author-debate-section {
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -261,7 +261,7 @@ body {
   position: absolute;
   bottom: -4px;
   left: 0;
-  }
+}
 
 .vs-span-box {
   display: flex;
@@ -298,7 +298,7 @@ body {
   font-weight: 600;
 }
 
-.top-5-articles { 
+.top-5-articles {
   background-color: whitesmoke;
   height: 18rem;
 }
@@ -379,7 +379,6 @@ body {
   background-color: red;
   color: #fff;
 }
-
 
 /* -------------------------MORE STORIES SECTION--------------------------- */
 
@@ -597,6 +596,7 @@ body {
     padding: 0 0.8rem;
     font-size: 1.8rem;
   }
+
   .form {
     width: 10rem;
   }
@@ -677,7 +677,7 @@ body {
     align-items: flex-start;
   }
 
-  .footer-svg-box{
+  .footer-svg-box {
     align-self: flex-start;
   }
 
@@ -687,10 +687,5 @@ body {
 
   .li-footer-bottom:not(:last-child)::after {
     display: none;
-  }
-}
-
-@media (max-width: 500px){
-  .cover-july{
   }
 }
