@@ -496,7 +496,7 @@ body {
 }
 
 .footer-container {
-  border-top: 1px solid gray;
+  border-top: 1px solid whitesmoke;
 }
 
 .footer-top {
@@ -534,7 +534,7 @@ body {
 }
 
 .footer-bottom {
-  border-top: 1px solid gray;
+  border-top: 1px solid whitesmoke;
 }
 
 .ul-footer-top {
