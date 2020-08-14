@@ -616,7 +616,6 @@ body {
 }
 
 @media (max-width: 992px) {
-
   .below-opinion-section {
     display: flex;
     flex-direction: column;
